@@ -1,0 +1,10 @@
+{
+	"id": "nodebb-plugin-shortlinks",
+	"name": "NodeBB Shortlinks",
+	"description": "Link to Topics or Categories using a Reddit style /c/ID or t/ID",
+	"url": "https://github.com/a5mith/nodebb-plugin-shortlinks",
+	"library": "./library.js",
+	"hooks": [
+        { "hook": "filter:post.parse", "method": "parse", "priority": 6 }
+    ]
+	}
