@@ -2,8 +2,8 @@
 	"use strict";
 
 	var Shortlinks = {},
-		c = '<a href="{relative_url}/category/$1">Category</a>',
-        t = '<a href="{relative_url}/topic/$1">Topic</a>';
+		c = '<a href="/{relative_url}/category/$1">Category</a>',
+        t = '<a href="/{relative_url}/topic/$1">Topic</a>';
 
 
     Shortlinks.parse = function(postContent, callback) {
