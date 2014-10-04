@@ -6,7 +6,7 @@
         t = '<a href="{relative_url}/topic/$1">Topic</a>';
 
 
-    YoutubeLite.parse = function(postContent, callback) {
+    Shortlinks.parse = function(postContent, callback) {
         var	category = /\B(\/c\/\w+)/g;
         var	topic = /\B(\/t\/\w+)/g;
 
